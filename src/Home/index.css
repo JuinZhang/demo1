@@ -1,0 +1,26 @@
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+.page-item {
+  display: inline;
+}
+.page-item .page-link {
+  z-index: 2;
+  cursor: default;
+  color: #5cb85c;
+  padding: 10px;
+  border: 1px solid #5cb85c;
+}
+.page-item .active {
+  z-index: 2;
+  cursor: default;
+  border-color: #ccc;
+  color: #ccc;
+  padding: 10px;
+  border: 1px solid #5cb85c;
+  background-color: #5cb85c;
+}
